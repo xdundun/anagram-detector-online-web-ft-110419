@@ -1,11 +1,12 @@
 class Anagram
   attr_accessor :word
-  def initialize(words)
-    @word = words
+  def initialize(new_word)
+    @word = new_word
 
   end
 
   def match(words)
-    @word.match(words)
+    split = @words.split(words)
+    split
   end
 end
