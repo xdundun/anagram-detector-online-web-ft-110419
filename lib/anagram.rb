@@ -7,11 +7,10 @@ class Anagram
 
   def match(words)
 
-      words.find { |match|
+      words.each { |word|
         if @word.split("") == match.split("")
           puts match
         end
-
       }
 
   end
