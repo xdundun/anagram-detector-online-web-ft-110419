@@ -10,7 +10,7 @@ class Anagram
     puts split
       words.select { |word|
            word.split("").sort == @word.split("").sort
-            puts word
+
       }
 
   end
