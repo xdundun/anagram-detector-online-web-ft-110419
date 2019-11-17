@@ -5,8 +5,14 @@ class Anagram
 
   end
 
-  def match(words)
-    split = @words.split(words)
-    split
+  def self.match(words)
+
+      words.each { |match|
+        if @words == match
+          puts match
+        end
+
+      }
+
   end
 end
