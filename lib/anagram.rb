@@ -9,7 +9,9 @@ class Anagram
     split = @word.split("")
     puts split
       words.each { |word|
-
+          if word.split("").sort == split
+            puts word
+          end
       }
 
   end
