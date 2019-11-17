@@ -5,7 +5,7 @@ class Anagram
 
   end
 
-  def self.match(words)
+  def match(words)
 
       words.each { |match|
         if @words == match
