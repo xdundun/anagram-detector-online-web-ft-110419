@@ -6,11 +6,9 @@ class Anagram
   end
 
   def match(words)
-
+    split = @word.split("")
       words.each { |word|
-        if @word.split("") == match.split("")
-          puts match
-        end
+
       }
 
   end
