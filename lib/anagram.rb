@@ -8,7 +8,7 @@ class Anagram
   def match(words)
 
       words.map { |match|
-        if @words == match
+        if @word == match
           puts match
         end
 
