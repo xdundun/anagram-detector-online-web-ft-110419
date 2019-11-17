@@ -10,4 +10,4 @@ class Anagram
            word.split("").sort == @word.split("").sort
       }
   end
-end
+end #end of class
