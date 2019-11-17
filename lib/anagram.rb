@@ -7,7 +7,7 @@ class Anagram
 
   def match(words)
 
-      words.each { |match|
+      words.map { |match|
         if @words == match
           puts match
         end
