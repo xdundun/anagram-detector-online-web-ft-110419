@@ -9,7 +9,7 @@ class Anagram
 
       words.find { |match|
         if @word.split("") == match.split("")
-          return match
+          puts match
         end
 
       }
